@@ -3,7 +3,7 @@ name: Setup Ruby
 on: [push, pull_request]
 
 jobs:
-  run_rspec:
+  setup_ruby:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
